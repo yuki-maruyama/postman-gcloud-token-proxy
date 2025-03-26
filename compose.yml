@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    ports:
+      - "18080:8080"
+    volumes:
+      - ~/.config/gcloud:/root/.config/gcloud
+    restart: always

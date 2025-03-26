@@ -2,6 +2,11 @@
 
 ## HOW TO USE
 
+use docker-compose
+```bash
+docker-compose up -d
+```
+
 build
 ```bash
 docker build -t postman-gcloud-token-proxy .
